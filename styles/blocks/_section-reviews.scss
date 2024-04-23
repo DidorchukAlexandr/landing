@@ -1,0 +1,41 @@
+.section__reviews {
+    padding-top: 450px;
+    padding-left: 56px;
+    padding-right: 56px;
+    padding-bottom: 160px;
+
+    &-header {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-left: 104px;
+        padding-right: 136px;
+        margin-bottom: 97px;
+
+    }
+
+    &-title {
+        font-weight: 600;
+            font-size: 38px;
+            line-height: 1.15789;
+            color: #6a28b8;
+            width: 349px;
+    }
+
+    &-body {
+        position: relative;
+        border-radius: 17px;
+            width: 1328px;
+            height: 278px;
+            background: linear-gradient(180deg, #502e9c 0%, #802ad1 100%);
+            
+    }
+
+    &-list {
+        position: absolute;
+        top: 130px;
+        display: flex;
+        justify-content: space-between;
+        height: 245px;
+    }
+}

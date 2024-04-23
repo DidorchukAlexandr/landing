@@ -1,0 +1,54 @@
+.section__price {
+   padding-top: 150px;
+   
+  
+
+&-description {
+   display: flex;
+    width: 574px;
+    flex-direction: column;
+    align-items: center;
+    height: 140px;
+    margin: auto;
+    margin-bottom: 126px;
+}
+
+&-title {
+    font-weight: 600;
+        font-size: 38px; 
+        line-height: 1.15789;
+        color: #6a28b8;
+        margin-bottom: 32px;
+}
+
+&-text {
+    font-weight: 400;
+        font-size: 26px; 
+        line-height: 1.30769;
+        letter-spacing: -0.06em;
+        text-align: center;
+        color: #9b96bc;
+}
+
+&-card {
+display: flex;
+background-image: url(../../images/backgroundPrice.png);
+height: 622px;
+padding: 0 105px;
+
+
+}
+
+&-card1 {
+   width: 397px;
+        height: 460px;
+       
+}
+
+&-card2 {
+   width: 435px;
+        height: 523px;
+       
+}
+
+}
