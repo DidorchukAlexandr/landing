@@ -1,17 +1,21 @@
 .header {
-    background-image: url(../../images/backgroundHeader.png);
-    background-repeat: no-repeat;
-        background-position: center;
-         background-size: cover;
-        width: 1440px;
-        height: 676px;
-         margin: 0 auto;
-         position: relative;
+    
+        // width: 1440px;
+        // height: 676px;
+        //  margin: 0 auto;
+        //  position: relative;
          padding-bottom: 30px;
 
+        &__svg {
+            position: relative;
+        }
+
     &__image-line1 {
+
         width: 667px;
         height: 418px;
+        position: absolute;
+        top: 0;
     }
 
          &__image-line2 {
@@ -25,7 +29,10 @@
                  &__image-line3 {
                      width: 1440px;
                      height: 233px;
-                     margin-top: 180px;
+                    //  margin-top: 180px;
+                     position: absolute;
+                     top: 580px;
+
                  }
 
 
@@ -136,5 +143,6 @@
                     width: 267px;
                     height: 528px;
                     margin-left: 270px;
+                    z-index: 5;
                 }
 }
